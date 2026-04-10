@@ -9,12 +9,12 @@
 
 import java.util.Stack;
 
-class MyQueue {
+class ImplementQueueUsingStacks {
 
     private Stack<Integer> mainStack;
     private Stack<Integer> outStack;
 
-    public MyQueue() {
+    public ImplementQueueUsingStacks() {
         mainStack = new Stack<>();
         outStack = new Stack<>();
     }
